@@ -44,7 +44,7 @@ The diagnostic test model, used to analyze and determine a student’s learning 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/r2ja/Learnify/tree/main)
    cd learnify
    ```
 
