@@ -1,0 +1,42 @@
+.profileCard {
+  border-radius: 12px;
+  background-color: rgba(6, 4, 10, 1);
+  box-shadow: 4px 8px 32px rgba(0, 0, 0, 0.24);
+  padding: 20px 15px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.userDetails {
+  color: #fff;
+}
+
+.userName {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+}
+
+.userEmail {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.divider {
+  background-color: #e5e7eb;
+  height: 1px;
+  margin: 16px 0;
+  width: 100%;
+  border: 0;
+}

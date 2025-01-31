@@ -1,0 +1,286 @@
+.profileContainer {
+  background-color: #fff;
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Thin Black Navbar */
+.navbar {
+  width: 80px;
+  border-radius: 24px;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 16px;
+}
+
+.navbarLogo {
+  font: 400 24px Baloo Bhai, -apple-system, Roboto, Helvetica, sans-serif;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.navIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.navIcon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.navIcon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Main Content */
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.title {
+  font: 700 36px Lato, sans-serif;
+  color: #000;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 24px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Profile Card */
+.profileCard {
+  border-radius: 12px;
+  background-color: #000;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userDetails {
+  color: #fff;
+}
+
+.userName {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.userEmail {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.divider {
+  background-color: #e5e7eb;
+  height: 1px;
+  margin: 16px 0;
+  width: 100%;
+  border: 0;
+}
+
+/* Navigation Menu */
+.navigationMenu {
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.menuItem:hover {
+  background-color: #f3f4f6;
+  transform: translateX(4px);
+}
+
+.menuContent {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.menuText {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+/* Settings Card */
+.settingsCard {
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.settingsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.settingsHeader span {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.settingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.settingLabel {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.settingValue {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.settingIcon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+/* Main Section */
+.mainSection {
+  flex: 1;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formField label {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.formField input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.formField input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.submitButton {
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 991px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .mainSection {
+    width: 100%;
+  }
+}

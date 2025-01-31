@@ -1,0 +1,58 @@
+.settingsCard {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 15px;
+  border: 1px solid #000;
+  margin-top: 78px;
+  font-family: Poppins, sans-serif;
+}
+
+.settingsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1f2937;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.divider {
+  background-color: #e5e7eb;
+  height: 1px;
+  margin: 16px 0;
+  width: 100%;
+  border: 0;
+}
+
+.settingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.settingLabel {
+  color: #1f2937;
+  font-size: 14px;
+}
+
+.settingValue {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.settingIcon {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .settingsCard {
+    margin-top: 40px;
+  }
+}

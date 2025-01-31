@@ -1,0 +1,37 @@
+.navbar {
+    width: 80px; /* Thin navbar */
+    border-radius: 24px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  
+  .navbarLogo {
+    font: 400 24px Baloo Bhai, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: 32px;
+  }
+  
+  .navIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .navIcon {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  
+  .navIcon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
